@@ -4,7 +4,7 @@
 
   - Las aplicaciones web modernas utilizan bases de datos para almacenar y recuperar datos, lo que permite la entrega de contenido dinámico. Las solicitudes HTTP(S) desencadenan interacciones entre el backend de la aplicación web y la base de datos para construir respuestas.
 
-![[Pasted image 20240402034341.png]]
+![image](https://github.com/0111100/SQL-Injection-Fundamentals/assets/96475451/8a0f00f3-8e95-4ac1-826f-04fd0da30de1)
 
 
 2. **Inyección de SQL (SQLi)**:   
