@@ -29,7 +29,7 @@ Al comprender los mecanismos de la inyección de SQL y adoptar medidas preventiv
 ## Architecture
 
 
-![[Pasted image 20240402040939.png]]
+![image](https://github.com/0111100/SQL-Injection-Fundamentals/assets/96475451/c5d0ceb5-a4a1-472d-b003-46c3ffe57e48)
 
 
 | **Feature**                 | **Description**                                                                                                                                                                            |
