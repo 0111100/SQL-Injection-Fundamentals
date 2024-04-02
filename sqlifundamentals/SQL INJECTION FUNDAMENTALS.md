@@ -26,11 +26,16 @@
 Al comprender los mecanismos de la inyección de SQL y adoptar medidas preventivas, los desarrolladores pueden fortalecer las aplicaciones web contra esta vulnerabilidad común y potencialmente devastadora.
 
 
-## Architecture
+**Introducción a las Bases de Datos**:
+    
+- Las aplicaciones web utilizan bases de datos en el backend para almacenar diversos tipos de contenido e información.
+- Esto incluye activos de la aplicación, contenido generado por usuarios y datos de usuarios como nombres de usuario y contraseñas.
 
-
-![image](https://github.com/0111100/SQL-Injection-Fundamentals/assets/96475451/c5d0ceb5-a4a1-472d-b003-46c3ffe57e48)
-
+1. **Sistemas de Gestión de Bases de Datos (DBMS)**:
+    
+    - Un DBMS ayuda a crear, definir, alojar y gestionar bases de datos.
+    - Existen varios tipos de DBMS, como los sistemas de archivos, los sistemas de gestión de bases de datos relacionales (RDBMS), NoSQL, basados en gráficos y de almacenamiento de claves/valores.
+    - Las características esenciales de un DBMS incluyen concurrencia, consistencia, seguridad, fiabilidad y el lenguaje SQL.
 
 | **Feature**                 | **Description**                                                                                                                                                                            |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -39,4 +44,16 @@ Al comprender los mecanismos de la inyección de SQL y adoptar medidas preventiv
 | `Security`                  | DBMS provides fine-grained security controls through user authentication and permissions. This will prevent unauthorized viewing or editing of sensitive data.                             |
 | `Reliability`               | It is easy to backup databases and rolls them back to a previous state in case of data loss or a breach.                                                                                   |
 | `Structured Query Language` | SQL simplifies user interaction with the database with an intuitive syntax supporting various operations.                                                                                  |
+
+
+2. **Arquitectura**:
+
+    ![[Pasted image 20240402040939.png]]
+    
+    - Se describe una arquitectura de dos capas, donde la capa I consiste en aplicaciones del lado del cliente y la capa II es el middleware.
+    - El middleware interpreta las interacciones del usuario y las traduce en formas requeridas por el DBMS.
+    - La capa de aplicación utiliza bibliotecas y controladores específicos para interactuar con el DBMS, que luego procesa las consultas y devuelve resultados o códigos de error.
+    
+
+
 
