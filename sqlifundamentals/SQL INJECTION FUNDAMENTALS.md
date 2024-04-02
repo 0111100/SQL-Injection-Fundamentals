@@ -50,10 +50,9 @@ Al comprender los mecanismos de la inyección de SQL y adoptar medidas preventiv
 
 ![image](https://github.com/0111100/SQL-Injection-Fundamentals/assets/96475451/087c7fc5-c4a7-4526-9e35-d56f95d5fd15)
 
-    
-    - Se describe una arquitectura de dos capas, donde la capa I consiste en aplicaciones del lado del cliente y la capa II es el middleware.
-    - El middleware interpreta las interacciones del usuario y las traduce en formas requeridas por el DBMS.
-    - La capa de aplicación utiliza bibliotecas y controladores específicos para interactuar con el DBMS, que luego procesa las consultas y devuelve resultados o códigos de error.
+   - Se describe una arquitectura de dos capas, donde la capa I consiste en aplicaciones del lado del cliente y la capa II es el middleware.
+   - El middleware interpreta las interacciones del usuario y las traduce en formas requeridas por el DBMS.
+   - La capa de aplicación utiliza bibliotecas y controladores específicos para interactuar con el DBMS, que luego procesa las consultas y devuelve resultados o códigos de error.
     
 
 
