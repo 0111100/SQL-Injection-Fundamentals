@@ -26,7 +26,7 @@
 Al comprender los mecanismos de la inyección de SQL y adoptar medidas preventivas, los desarrolladores pueden fortalecer las aplicaciones web contra esta vulnerabilidad común y potencialmente devastadora.
 
 
-**Introducción a las Bases de Datos**:
+## **Introducción a las Bases de Datos**:
     
 - Las aplicaciones web utilizan bases de datos en el backend para almacenar diversos tipos de contenido e información.
 - Esto incluye activos de la aplicación, contenido generado por usuarios y datos de usuarios como nombres de usuario y contraseñas.
